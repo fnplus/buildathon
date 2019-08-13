@@ -78,4 +78,4 @@ Collaboration and sharing are key principles of **Buildathon**: people are encou
 
 
 
-Inspired by: [Coding-Gym]([https://coding-gym.org](https://coding-gym.org/)
+Inspired by: [Coding-Gym](https://coding-gym.org/)
