@@ -1,6 +1,6 @@
 # Buildathon
 
-##### *Buildathon* is an international programming lab format open to any language and developed for continuous improvement. We help others practice programming, software development and communication skills by making coding laboratories open to any programming language where cooperation is valued over competition, doing and sharing are valued over teaching, and where competing solutions come with discussing and understanding tradeoffs.
+*Buildathon* is an international programming lab format open to any language and developed for continuous improvement. We help others practice programming, software development and communication skills by making coding laboratories open to any programming language where cooperation is valued over competition, doing and sharing are valued over teaching, and where competing solutions come with discussing and understanding tradeoffs.
 
 ## Contents
 
