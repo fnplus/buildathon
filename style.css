@@ -1,189 +1,210 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-.ubuntu {
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.nunito {
-  font-family: 'Nunito', sans-serif;
-}
-
 /* nav bar styling */
 
 .navbar-light .navbar-brand {
-  color: #0066ff;
-  font-size: 25px;
-  font-weight: 400px;
+	color: #0066ff;
+	font-size: 25px;
+	font-weight: 400px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #0066ff;
-  font-size: 18px;
-  line-height: 20px;
+	color: #0066ff;
+	font-size: 18px;
+	line-height: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #000000;
+	color: #000000;
 }
 
 /* Home section styling*/
 
 #home {
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  color: #0066ff;
-  background: #ffffff;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	color: #0066ff;
+	background: #ffffff;
 }
 
 .homesec .h1 {
-  padding-top: 130px;
+	padding-top: 130px;
+}
+
+#sponsors {
+	background-color: #e7e7e7;
+	@media screen and (max-width: $tablet-landscape) {
+		display: none;
+	}
+}
+
+p {
+	font-weight: bold;
+	margin-bottom: 0rem;
+}
+
+.img-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1vh;
+}
+
+.sponsor-img {
+	width: 8rem;
+	margin: 0.5rem;
 }
 
 /* About Section Styling */
 
 #about {
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  background: #ffffff;
-  color: #0066ff;
-  padding-top: 100px;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	background: #ffffff;
+	color: #0066ff;
+	padding-top: 100px;
+	margin-top: 20px;
 }
 
-/* Tracks Section Styling*/
+/* Tracks Section Styling */
 
 #tracks {
-  text-align: center;
-  padding-top: 100px;
+	text-align: center;
+	padding-top: 100px;
 }
 
 .trackc .theading {
-  font-family: 'Nunito', sans-serif;
-  color: #0066ff;
-  padding-bottom: 50px;
+	font-family: 'Nunito', sans-serif;
+	color: #0066ff;
+	padding-bottom: 50px;
+}
+
+/* Why Host Section Styling */
+
+.why-host {
+	background-color: #fff;
 }
 
 /* FAQ Section Styling*/
 
 h2 {
-  font-size: 2rem;
-  font-family: 'Nunito', sans-serif;
-  color: #0066ff;
+	font-size: 2rem;
+	font-family: 'Nunito', sans-serif;
+	color: #0066ff;
 }
 
 .our-faq-wrapper {
-  float: left;
-  width: 100%;
-  padding: 89px 0 60px;
+	float: left;
+	width: 100%;
+	padding: 89px 0 60px;
 }
 
 .our-faq-wrapper {
-  padding: 90px 0 60px;
-  background: #fff;
+	padding: 90px 0 60px;
+	background: #fff;
 }
 
 .accordion .card {
-  border: none;
-  margin-bottom: 30px;
+	border: none;
+	margin-bottom: 30px;
 }
 
 .our-faq-wrapper .btn-link {
-  display: block;
-  width: 100%;
-  text-align: left;
-  position: relative;
-  background: #242c42;
-  color: #fff;
-  border-radius: 0;
-  padding: 7px 15px 12px;
-  font-size: 16px;
-  overflow: hidden;
-  border: none;
-  font-weight: 600;
+	display: block;
+	width: 100%;
+	text-align: left;
+	position: relative;
+	background: #242c42;
+	color: #fff;
+	border-radius: 0;
+	padding: 7px 15px 12px;
+	font-size: 16px;
+	overflow: hidden;
+	border: none;
+	font-weight: 600;
 }
 
 .our-faq-wrapper .btn-link:hover, .our-faq-wrapper .btn-link:focus {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .our-faq-wrapper .btn-link:after {
-  position: absolute;
-  content: '\f068';
-  right: 15px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  font-family: fontawesome;
+	position: absolute;
+	content: '\f068';
+	right: 15px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-family: fontawesome;
 }
 
 .our-faq-wrapper .btn-link.collapsed:after {
-  content: '\f067';
+	content: '\f067';
 }
 
 .our-faq-wrapper .btn-link:before {
-  position: absolute;
-  content: '';
-  background: #0066ff;
-  ;
-  -webkit-transform: skew(-35deg);
-  transform: skew(-35deg);
-  height: 100%;
-  width: 50%;
-  left: 90%;
-  top: 0;
+	position: absolute;
+	content: '';
+	background: #0066ff;
+	;
+	-webkit-transform: skew(-35deg);
+	transform: skew(-35deg);
+	height: 100%;
+	width: 50%;
+	left: 90%;
+	top: 0;
 }
 
 .card-header {
-  padding: 0;
-  background: transparent;
-  border-bottom: none;
+	padding: 0;
+	background: transparent;
+	border-bottom: none;
 }
 
 .card-body {
-  position: relative;
+	position: relative;
 }
 
 .card-body:after {
-  position: absolute;
-  content: '';
-  height: 2px;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  background: #0066ff;
+	position: absolute;
+	content: '';
+	height: 2px;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background: #0066ff;
 }
 
 .card-body:before {
-  position: absolute;
-  content: '';
-  height: 2px;
-  width: 50%;
-  left: 0;
-  bottom: 0;
-  background: #0066ff;
-  z-index: 1;
+	position: absolute;
+	content: '';
+	height: 2px;
+	width: 50%;
+	left: 0;
+	bottom: 0;
+	background: #0066ff;
+	z-index: 1;
 }
 
 /* schedule section styling */
 
 #schedule {
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-  color: #0066ff;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	color: #0066ff;
 }
 
 /* sponsers section styling */
 
 #sponsers {
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-  color: #0066ff;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	color: #0066ff;
 }
 
 /* sponsers section styling */
 
 footer {
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-  color: #ffffff;
-  background: #0066ff;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	color: #ffffff;
+	background: #0066ff;
 }
